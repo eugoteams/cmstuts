@@ -1,17 +1,24 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import parse from 'html-react-parser'
+
 
 const BlogPost = ({ data }) => {
-  console.log("data,", data)
+  console.log("data,", data.markdownRemark.fields.slug)
   return (
     <div>
-      <div>
+      <div
+       style={{
+        margin: `0 auto`,
+        maxWidth: 960,
+        padding: `0 1.0875rem 1.45rem`,
+      }}>
         <h2>{data.markdownRemark.frontmatter.title}</h2>
         <Img
           fixed={data.markdownRemark.frontmatter.image.childImageSharp.fixed}
         />
-        <div> {data.markdownRemark.frontmatter.description}</div>
+        <div>  {parse(data.markdownRemark.html)}</div>
       </div>
     </div>
   )
@@ -36,6 +43,7 @@ export const BlogPostTemplateQuery = graphql`
           }
         }
       }
+      html
     }
   }
 `

@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "bootstrap": "^4.6.0",
     "gatsby": "^3.1.1",
     "gatsby-image": "^3.2.0",
     "gatsby-plugin-gatsby-cloud": "^2.1.0",
@@ -18,9 +19,11 @@
     "gatsby-source-filesystem": "^3.1.0",
     "gatsby-transformer-remark": "^3.1.0",
     "gatsby-transformer-sharp": "^3.1.0",
+    "html-react-parser": "^1.2.4",
     "netlify-cms-app": "^2.14.32",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0"
   },
