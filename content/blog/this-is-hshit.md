@@ -1,7 +1,7 @@
 ---
-path: this-is-shit
+path: control-shit
 date: 2021-04-01T22:13:51.966Z
-title: This is shit
+title: Control Shit
 description: this blog tell you about Shit in paris
 image: assets/download.jpg
 ---
