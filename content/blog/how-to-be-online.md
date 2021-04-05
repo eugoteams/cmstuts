@@ -1,5 +1,5 @@
 ---
-path: online
+path: how-to-be-online
 date: 2021-04-05T09:07:21.275Z
 title: How to be online
 description: this is to ne online
