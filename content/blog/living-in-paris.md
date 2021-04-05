@@ -1,5 +1,5 @@
 ---
-path: Living-in-Paris
+path: living-in-paris
 date: 2021-04-05T12:48:08.434Z
 title: Living in Paris
 description: Life in paris
