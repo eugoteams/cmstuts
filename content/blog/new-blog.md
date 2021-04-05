@@ -1,5 +1,5 @@
 ---
-path: new
+path: new-blog
 date: 2021-04-05T11:37:09.818Z
 title: New blog
 description: The weirdest part of this issue for me was that it was always
