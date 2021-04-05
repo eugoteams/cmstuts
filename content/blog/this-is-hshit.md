@@ -1,5 +1,5 @@
 ---
-path: Shit
+path: this-is-shit
 date: 2021-04-01T22:13:51.966Z
 title: This is hshit
 description: this blog tell you about Shit in paris
